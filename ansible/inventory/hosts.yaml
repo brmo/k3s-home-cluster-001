@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        k3s001:
+          ansible_user: debian
+          ansible_host: 172.20.30.121
+        k3s002:
+          ansible_user: debian
+          ansible_host: 172.20.30.122
+        k3s003:
+          ansible_user: debian
+          ansible_host: 172.20.30.123
